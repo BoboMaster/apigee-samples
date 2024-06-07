@@ -14,8 +14,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-export PROJECT="<GCP_PROJECT_ID>"
-export APIGEE_HOST="<APIGEE_DOMAIN_NAME>"
-export APIGEE_ENV="<APIGEE_ENVIRONMENT_NAME>"
+export PROJECT="apigee-test-425317"
+export APIGEE_HOST="10.4.32.2"
+export APIGEE_ENV="eval-instance"
 
 gcloud config set project $PROJECT
